@@ -6,12 +6,14 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  
+    
 }
 
 .header {
   background: #1F2937;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+ 
+  
   
 }
 
@@ -32,13 +34,6 @@ body {
   padding-left: 25px
 }
 
-button {
-  border: none;
-  border-radius: 8px;
-  background: rebeccapurple;
-  color: white;
-  padding: 8px 24px;
-}
 
 a {
   /* this removes the line under our links */
@@ -71,4 +66,152 @@ ul {
   display: flex;
   align-items: center;
   gap: 16px;
+  padding-left: 15px;
+  padding-right: 35px;
+  
+}
+.leftt, .rightt {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 50%;
+    padding: 25px;
+    
+  }
+  .rightt{
+    direction: rtl;
+    
+  }
+.modal {
+    background: #1F2937;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    
+    
+
+    
+
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+  button.continue {
+    margin-top: 36px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    margin: 8px;
+    border: 2px solid white;
+  }
+  .imgcl{
+    
+  }
+
+  .text{
+    color: #ddd;
+    margin: 8px;
+
+  }
+  img{
+    height: 200px;
+    width: 400px;
+    float:right ;
+  }
+  h1{
+    color: #ddd;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+  }
+  .title {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  
+  .containerr {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    align-items: center;
+  }
+  
+  .info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .imgcl {
+    height: 200px;
+    width: 400px;
+    float: right;
+    margin-right: 10px;
+    
+    
+    
+
+}
+  .textt{
+    text-align: center;
+  }
+
+  .information{
+    padding: 28px;
+  }
+
+  .quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+    padding: 88px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.hero{
+font-size: 24px;
+/*position: absolute;
+right: 0;*/
+display: flex;
+justify-content: end;
+padding: 28px;
+}
+
+.blueline{
+    padding:57px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    margin: 64px 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background: #1F2937;
+    color: lightslategray;
 }
